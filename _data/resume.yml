@@ -1,0 +1,36 @@
+theme: default
+header:
+  name: Hoang Van Thanh
+  suffix: GAVIN
+  display_contact_info: true
+  current_title: Sortware Engineer
+  intro: >
+    I am actively seeking opportunities to challenge myself
+    and further develop my skills. With a strong passion for
+    programming, I aspire to work in a dynamic, open, and
+    professional environment where I can gain valuable work
+    experience, enhance my skills, and broaden my
+    knowledge to become a proficient engineer in the future.
+contact:
+  #address: 123 Main St, Test, CA 91234
+  #phone: (123) 456-7890
+  email: thanhhv317@gmail.com
+sections:
+  experience:   true
+  education:    true
+  projects:     true
+  skills:       true
+  recognition:  true
+  associations: false
+  interests:    true
+  links:        true
+  social_links: false
+social:
+  Website:    /
+  GitHub:     https://github.com/thanhhv317
+  # Twitter:    https://twitter.com/thanhhv317
+  #Dribbble:  https://dribbble.com/thanhhv317
+  #FaceBook:  https://facebook.com/thanhhv317
+  LinkedIn:   https://linkedin.com/in/thanhhv317
+  #Instagram: https://instagram.com/thanhhv317
+  #Medium:    https://medium.com/@chad-thanhhv317
