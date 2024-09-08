@@ -12,6 +12,8 @@
   description: "4+ years of experience in database/schema design, query tuning, index tuning, SQL development, noSQL. Using database like that: Mysql, postgreSQL, mongodb"
 - skill: Nodejs (Express, Nestjs)
 - skill: Javascript, Typescript
+- skill: Blockchain
+  description: "understand blockchain concepts and communication, can integrate functions using web3."
 - skill: Golang
 - skill: Html, css
 - skill: Reactjs
