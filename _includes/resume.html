@@ -142,7 +142,7 @@
           {%- if job.url -%}<a href="{{ job.url }}" itemprop="url" target="_blank">{{ job.company }}</a>{%- else -%}{{ job.company }}{%- endif -%}
         </h3>
 
-        {%- if positions.size > 1 -%}
+        <!-- {%- if positions.size > 1 -%}
           <div class="company-duration">
             <span>{{ jobfirstpos.startdate | date: "%b, %Y" }}</span>
             <span> &ndash; </span>
@@ -150,7 +150,7 @@
             <span> &bull; </span>
             <span><script>JobDateDiff("{{ jobStartDate }}","{{ jobEndDate }}")</script></span>
           </div>
-        {%- endif -%}
+        {%- endif -%} -->
 
         {%- if job.summary -%}
           <div class="job-summary">

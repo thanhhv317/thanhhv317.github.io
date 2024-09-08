@@ -1,17 +1,15 @@
-- project: chadbaldwin.net
+- project: Thanhhv blog
   role: Writer
-  duration: Dec, 2020 &mdash; Present
+  duration: Sep, 2024 &mdash; Present
   url: "/"
   description: >
     I've always enjoyed teaching, and I love learning new technologies and sharing tips and tricks
-    I've picked up over the years. So back in Dec 2020 I decided to build my own blog.
+    I've picked up over the years. So back in Sep 2024 I decided to build my own blog.
 
-- project: Schema Search, utility stored procedure
+- project: Food delivery
   role: Developer
-  duration: 2015 &mdash; Present
-  url: "https://github.com/chadbaldwin/SQL"
+  duration: Feb 2023 &mdash; Sep 2023
+  url: "https://github.com/thanhhv317/Food-delivery"
   description: >
-    "Schema Search" as I've been calling it, is a stored procedure that focuses on searching the
-    contents of system objects in order to help my understanding of the SQL Server system tables.
-    Eventually, it turned into a tool that I use, at minimum, on a daily basis. The project is
-    hosted on GitHub and is licensed for anyone to use or contribute!
+    "Food delivery" is a project I use to learn a new programming language - Golang. Most of the project I use functions that can compare Golang with other programming languages 
+    to gain more knowledge and make a more suitable choice later.
