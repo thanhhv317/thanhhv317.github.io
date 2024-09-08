@@ -9,15 +9,17 @@
     # startdate: 2023-09-13
 #   enddate:
     summary: "A content management system integrating blockchain to provide web3 information to readers, including modules such as articles, channels, courses, series, etc."
+    teamsize: "Team size: 10 members."
+    technologies: "Technologies used: Node.js (Nestjs framework), GraphQL, gRPC, webSocket, PostgreSQL, RabbitMQ, Redis, Meilisearch, InfluxDb, Docker, AWS S3, SendGrid, React."
     projects:
-      - "Team size: 10 members."
-      - "Technologies used: Node.js (Nestjs framework), GraphQL, gRPC, webSocket, PostgreSQL, RabbitMQ, Redis, Meilisearch, InfluxDb, Docker, AWS S3, SendGrid, React."
-      - "Main responsibilities: 
-        - Participate in daily meetings to monitor members' work and update project requirements.
-        - Analyze and design databases for modules such as tags, collections, series, channels, courses, layouts, etc.
-        - Index data for search functionality on Meilisearch.
-        - Handle core logic for various services such as tag, channel, series, course, etc.
-        - Write unit tests"
+      - "Participate in daily meetings to monitor members' work and update project requirements."
+      - "Analyze and design databases for modules such as tags, collections, series, channels, courses, layouts, etc."
+      - "Index data for search functionality on Meilisearch."
+      - "Handle core logic for various services such as tag, channel, series, course, etc."
+      - "Write unit tests."
+      - "Improve service performance, refactor source code, and monitor logs on Kibana for detection and fixes."
+      - "Contribute to building common libraries."
+      - "Review code and participate in training new members."
 
 - company: "Finviet"
   summary: "A data mining company dedicated to identifying leads in automotive dealerships customer data with the goal of helping them increase customer retention and sales."
