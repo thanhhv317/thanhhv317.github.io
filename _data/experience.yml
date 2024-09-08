@@ -1,18 +1,23 @@
 
-- company: "Coin98"
-  summary: "Industry leader software solution for home-based care, streamlining everything from scheduling, mapping and routing to billing, compliance and revenue cycle management"
+- company: "Coin98 (09/2023 - Present)"
+  summary: "Participate in developing blockchain-related projects within the NE ecosystem, with the mission of bringing web3 to everyone."
   logo: "/img/companylogos/coin98.png"
   url: "https://coin98.com/"
   positions:
 
-  - title: "Backend Engineer"
-    startdate: 2023-09-13
+  - title: "AmberBlocks"
+    # startdate: 2023-09-13
 #   enddate:
-    summary: "Specialized in research and development with a focus on performance tuning for SQL Server. Designed and implemented systems for identifying and solving complex database issues through innovative proof-of-concept systems and strategic process improvements. Demonstrated ability to deliver outside-the-box solutions that enhance data management and operational effectiveness."
+    summary: "A content management system integrating blockchain to provide web3 information to readers, including modules such as articles, channels, courses, series, etc."
     projects:
-      - "Developed a system to monitor millions of SQL Server indexes, enabling the identification and removal of unused indexes to optimize database performance and resource allocation. Leading to a significant reduction in superfluous write activity by removing unnecessary indexes while ensuring no performance regression."
-      - "Engineered an advanced analytics tool to evaluate physical index structures, successfully identifying and resolving issues with duplicate, overlapping, and mergeable indexes, which significantly enhanced query efficiency and storage utilization."
-      - "Designed and implemented a robust system for synchronizing and consolidating system metadata from hundreds of SQL Server instances into a central repository. This tool aids in monitoring and managing schema and configuration drift, improving consistency and control across the database environment."
+      - "Team size: 10 members."
+      - "Technologies used: Node.js (Nestjs framework), GraphQL, gRPC, webSocket, PostgreSQL, RabbitMQ, Redis, Meilisearch, InfluxDb, Docker, AWS S3, SendGrid, React."
+      - "Main responsibilities: 
+        - Participate in daily meetings to monitor members' work and update project requirements.
+        - Analyze and design databases for modules such as tags, collections, series, channels, courses, layouts, etc.
+        - Index data for search functionality on Meilisearch.
+        - Handle core logic for various services such as tag, channel, series, course, etc.
+        - Write unit tests"
 
 - company: "Finviet"
   summary: "A data mining company dedicated to identifying leads in automotive dealerships customer data with the goal of helping them increase customer retention and sales."

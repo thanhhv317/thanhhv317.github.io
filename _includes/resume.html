@@ -131,8 +131,8 @@
         {%- assign jobfirstpos = positions | last -%}
         {%- assign joblastpos = positions | first -%}
 
-        {%- assign jobStartDate = jobfirstpos.startdate | date: "%F" -%}
-        {%- assign jobEndDate = joblastpos.enddate | default: 'now' | date: "%F" -%}
+        <!-- {%- assign jobStartDate = jobfirstpos.startdate | date: "%F" -%}
+        {%- assign jobEndDate = joblastpos.enddate | default: 'now' | date: "%F" -%} -->
       {%- endif -%}
 
       <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
