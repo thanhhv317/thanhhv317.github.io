@@ -158,18 +158,6 @@
           </div>
         {%- endif -%}
 
-        {%- if job.teamsize -%}
-          <div class="job-summary">
-            {{ job.teamsize }}
-          </div>
-        {%- endif -%}
-
-        {%- if job.technologies -%}
-          <div class="job-summary">
-            {{ job.technologies }}
-          </div>
-        {%- endif -%}
-
         {%- for position in positions -%}
           {%- assign posStartDate = position.startdate | date: "%F" -%}
           {%- assign posEndDate = position.enddate | default: 'now' | date: "%F" -%}
@@ -188,6 +176,19 @@
             </div>
             <div class="resume-item-copy">
               <div class="position-summary">{{ position.summary }}</div>
+
+              {%- if position.teamsize -%}
+                <div class="position-summary">
+                  {{ position.teamsize }}
+                </div>
+              {%- endif -%}
+
+              {%- if position.technologies -%}
+                <div class="position-summary">
+                  {{ position.technologies }}
+                </div>
+              {%- endif -%}
+
               {%- if position.projects -%}
                 <ul class="resume-item-list">
                   {%- for project in position.projects -%}<li>{{ project }}</li>{%- endfor -%}
