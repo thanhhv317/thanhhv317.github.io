@@ -7,7 +7,7 @@
 
   - title: "AmberBlocks"
     # startdate: 2023-09-13
-#   enddate:
+    # enddate:
     summary: "A content management system integrating blockchain to provide web3 information to readers, including modules such as articles, channels, courses, series, etc."
     teamsize: "Team size: 10 members."
     technologies: "Technologies used: Node.js (Nestjs framework), GraphQL, gRPC, webSocket, PostgreSQL, RabbitMQ, Redis, Meilisearch, InfluxDb, Docker, AWS S3, SendGrid, React."
@@ -21,33 +21,62 @@
       - "Contribute to building common libraries."
       - "Review code and participate in training new members."
 
-- company: "Finviet"
-  summary: "A data mining company dedicated to identifying leads in automotive dealerships customer data with the goal of helping them increase customer retention and sales."
+  - title: "Superwallet market service"
+    summary: "An application offering various features such as providing token price information (BTC, ETH, etc.), ranking, portfolio management, etc."
+    teamsize: "Team size: 4 members."
+    technologies: "Technologies used: Node.js (Express framework), MongoDB, Redis, Web3 libraries, Docker, AWS (S3, SQS, Lambda), Debank API, CoinGecko API, etc."
+    projects:
+      - "Migrate server from JavaScript to TypeScript, redesign some databases, and refactor code to enhance performance."
+      - "Crawl data about information, prices, charts, etc., of cryptocurrencies from CoinGecko."
+      - "Provide statistics on user portfolios using Debank's open API."
+
+  - title: "OneID"
+    summary: "An application used to identify users in the web3 world"
+    teamsize: "Team size: 6 members."
+    technologies: "Technologies used: Node.js, MongoDB, Redis, Docker, Web3 libraries, etc."
+    projects:
+      - "Migrate server from JavaScript to TypeScript, redesign some databases, and refactor code to enhance performance."
+      - "Track data stored on-chain to update old transactions ensuring data accuracy."
+      - "Communicate with smart contracts using the Web3 library to interact with data on the blockchain."
+
+- company: "Finviet technology corporation (10/2020 - 9/2023)"
+  summary: "Providing financial solutions for businesses through the ECO ecosystem."
   logo: "/img/companylogos/finviet.png"
   url: "https://finviet.com.vn/"
   positions:
 
-  - title: "Backend Developer"
-    startdate: 2020-10-01
-    enddate: 2023-09-10
-    summary: "Primarily working with SQL, C# and PowerShell; improved products by working with development and product teams to engineer back-end services, build databases and design schemas. Implemented ETL processes for importing, cleansing and normalizing automotive dealership data to be processed by our proprietary calculation engine."
+  - title: "Loyalty"
+    summary: "Consists of programs such as point accumulation for rewards and the use of points when conducting transactions for associated services."
+    teamsize: "Team size: 5 members."
+    technologies: "Technologies used: Node.js, MongoDB, ActiveMQ, Redis, Prometheus, Grafana, Jaeger, Docker."
     projects:
-      - "Collaborated with 3rd party data providers to build integrations for tasks such as SalesForce data syncing, email/address sanitization, data appends and ETL processes"
-      - "Helped maintain and improve an elaborate calculation engine written in SQL to support new features and settings"
-      - "Tuned existing SQL code to run faster and more efficiently reducing both runtime and resource usage through query and index tuning by analyzing execution plans, server statistics, dynamic management views (DMVs), SQL Server First Responder Kit and SentryOne Plan Explorer"
-      - "Worked on many ETL projects using SQL, C#, PowerShell and batch scripting, and SSIS packages"
-      - "Contributed to complex back-end services written in C# utilizing technologies such as Elasticsearch, RabbitMQ, Redis, Amazon SNS, Amazon SES, Amazon S3, Docker, Selenium web scraping, and handling files via FTP"
-      - "Experience with using collaboration and CI/CD tools including Jenkins, Slack, Upsource, Jira and Confluence"
-      - "Worked primarily with SQL Server versions 2008, 2012, 2014 practicing good HA/DR policies, using replication and Always On availability groups"
-      - "Used AWS tools for troubleshooting, logging and deployment such as CloudWatch, CodeDeploy, and managing/monitoring servers through EC2"
+      - "Analyzing and designing databases and systems with a strong emphasis on scalability."
+      - "Utilizing the Nest.js framework to build applications with a Microservice architecture."
+      - "Creating reports to present statistical data."
+      - "Implementing Prometheus and Grafana for system monitoring."
+      - "Collaborating with teammates to upgrade and improve the performance of MongoDB."
+      - "Refactoring code to enhance performance."
+      - "Integrating the system with third-party platforms such as order placement, bill payment, and other service providers"
 
-  - title: "Senior IT Support Analyst"
-    startdate: 2012-06-04
-    enddate: 2015-10-01
-    summary: "As an IT Support Analyst I was responsible for quickly triaging and troubleshooting issues in client data. Worked directly with clients over the phone to assist fixing data delivery issues. Built systems and tools to automate detection of bad data quality and reduce the work needed to fix."
+  - title: "Eco Consumer App"
+    # startdate: 2012-06-04
+    # enddate: 2015-10-01
+    summary: "An application with features such as e-wallet, purchasing goods, paying bills, services, etc."
+    teamsize: "Team size: 6 members."
+    technologies: "Technologies used: Node.js, ActiveMQ, MongoDB, Firebase, Redis, Docker, Websocket."
     projects:
-      - "Worked heavily with SSRS to write custom reports for all business needs ranging from simple tablix reports to intricate reports with benchmarks, charts, and complex expressions"
-      - "Established a reporting data warehouse to ensure consistent metrics across all reports"
+      - "Utilizing the Nest.js framework to build applications with a Microservice architecture, as well as implementing Websocket to create real-time functionality."
+      - "Integrating the application with the company's Eco e-wallet and other third-party services for seamless business operations, such as purchasing goods, paying for services and bills, and managing loyalty programs."
+      - "Generating reports on merchandise, refunds, user lists, and other requested marketing statistics."
+      - "Building new and maintaining old features."
+
+  - title: "Eco Cms service"
+    summary: "The Eco CMS Service is responsible for managing and configuring various components of the system, including suppliers, showcases, banners, loyalty programs, notifications, and more.."
+    teamsize: "Team size: 5 members."
+    technologies: "Technologies used: Node.js, TypeScript, MongoDB, Redis, Docker, Microservice."
+    projects:
+      - "Design the system using the Clean Architecture pattern, incorporating multiple layers for easy scalability."
+      - "Communicate with BA and QC to gather requirements for system development or maintenance. Collaborate with team members to implement new features for the system."
 
 - company: "Solution and Technology Eplus (5/2019 - 9/2020)"
   summary:
